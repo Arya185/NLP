@@ -257,8 +257,7 @@ generated yourself or obtained from a source you trust, and verify checksums of 
 
 ## Licence and attribution
 
-- The project's original code is released under the **MIT License**. See [LICENSE](LICENSE)
-  (Copyright (c) 2026 Arya Patel). The MIT licence applies only to original project code; it does not grant rights
+- The project's original code is released under the **MIT License**. See [LICENSE](LICENSE). The MIT licence applies only to original project code; it does not grant rights
   to third-party datasets or model artifacts.
 - Third-party models and data have their own terms. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for
   attribution and for the licensing questions that are still open. **Nothing in this repository claims that
