@@ -1,0 +1,45 @@
+{
+  "base_model": "google/muril-base-cased",
+  "id2label": {
+    "0": "HATE",
+    "1": "OFFENSIVE",
+    "2": "NORMAL"
+  },
+  "label2id": {
+    "HATE": 0,
+    "OFFENSIVE": 1,
+    "NORMAL": 2
+  },
+  "target_names": [
+    "HATE",
+    "OFFENSIVE",
+    "NORMAL"
+  ],
+  "max_len": 128,
+  "preprocessing": "src/preprocess.py clean_text (URLs removed before punctuation)",
+  "preprocess_sha256": "6332aa3da76b5c3618b5e4e7457e45c48d27ae5816c51018c6ed21512d1405d0",
+  "class_weights": null,
+  "train_counts": {
+    "0": 787,
+    "1": 796,
+    "2": 794
+  },
+  "hinglish_sources": [
+    "seed (15 synthetic sentences)"
+  ],
+  "hinglish_train_rows": 9,
+  "english_train_rows": 2368,
+  "limitations": "Only 9 Hinglish training rows (synthetic seed). Hinglish hate-speech detection is NOT validated; do not rely on Hinglish predictions.",
+  "split_sizes": {
+    "train": 2377,
+    "val": 299,
+    "test": 300
+  },
+  "hyperparameters": {
+    "epochs": 4.0,
+    "batch_size": 16,
+    "lr": 2e-05,
+    "patience": 2,
+    "seed": 42
+  }
+}

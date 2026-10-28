@@ -1,0 +1,54 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv312/
+venv/
+
+# macOS
+.DS_Store
+
+# Editor and tool state
+.vscode/
+.idea/
+.gstack/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Generated Colab upload bundle (recreate with the zip command in colab_muril_finetune.ipynb)
+project_src.zip
+
+# Raw dataset cache. The code re-downloads it; redistribution terms for the tweets are unverified.
+data/raw/
+
+# Large or non-essential model files (the small MuRIL config, tokenizer, label_config.json and
+# eval_results.json stay eligible for Git).
+# MuRIL weights exceed GitHub's 100 MB per-file limit and must be obtained separately.
+models/muril_final_model/model.safetensors
+models/muril_final_model/pytorch_model.bin
+models/muril_final_model/training_args.bin
+models/svm_pipeline.preprocess_v1.joblib
+
+# SVM model artifact: excluded pending review. Its TF-IDF vocabulary was learned from tweet text and its
+# redistribution status has not been established. Generate it locally with train_baseline.py.
+models/svm_pipeline.joblib
+
+# Training checkpoints and PyTorch checkpoint files
+models/muril_final_model/checkpoints/
+*.pt
+*.pth
+
+# Local scratch notebooks that are not part of the project
+/Untitled
+/Untitled0.ipynb
+/Untitled1.ipynb
