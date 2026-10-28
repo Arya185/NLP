@@ -6,11 +6,10 @@ checked against public pages on 2026-10-28; anything not verified is marked **RE
 
 ## Scope of the project's own licence
 
-The project's original source code is intended to be released under the MIT License. **A `LICENSE` file has not
-been added yet** (the copyright holder still has to be confirmed), so no licence is granted for the project's code
-until it is. When added, the MIT License will apply **only to the project's original code**. It does **not** grant
-any rights to third-party datasets, third-party model artifacts, or anything derived from them, and it does not
-replace any upstream licence.
+The project's original source code is released under the MIT License. See the `LICENSE` file (Copyright (c) 2026
+Arya Patel). The MIT License applies **only to the project's original code**. It does **not** grant any rights to
+third-party datasets, third-party model artifacts, or anything derived from them, and it does not replace any
+upstream licence.
 
 ## 1. `google/muril-base-cased` (base model)
 

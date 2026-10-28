@@ -319,8 +319,9 @@ none are read. **Downloads:** the English dataset (training only, if the file is
 
 ## 9. Licensing, attribution and safety notes
 
-- **No `LICENSE` file has been added yet.** See `THIRD_PARTY_NOTICES.md` for upstream attribution and the open
-  licensing questions. Nothing in this project claims that redistribution of tweet text, or of artifacts derived
+- The project's original code is under the MIT License (see `LICENSE`; Copyright (c) 2026 Arya Patel), which covers
+  only original code. See `THIRD_PARTY_NOTICES.md` for upstream attribution and the open licensing questions.
+  Nothing in this project claims that redistribution of tweet text, or of artifacts derived
   from it, has been cleared.
 - **Loading an untrusted `.joblib` file (a Python pickle) can execute arbitrary code.** Only load model files you
   generated yourself or obtained from a trusted source, and verify checksums of anything you download.
